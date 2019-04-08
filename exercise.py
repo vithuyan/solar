@@ -7,7 +7,7 @@ class System:
         if new_body not in self.bodies:
             self.bodies.append(new_body)
         else:
-            print("The body {} is already in the list.".format(new_body.name))
+            print("{} is already in the list.".format(new_body.name))
             return self.bodies
 
     def total_mass(self):
